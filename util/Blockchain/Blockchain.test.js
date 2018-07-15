@@ -14,7 +14,7 @@ describe("Blockchain", function() {
 
     this.notecoin.addBlock(
       new Block(2, "01/01/2018", {
-        amount: 10
+        amount: 11
       })
     );
   });
